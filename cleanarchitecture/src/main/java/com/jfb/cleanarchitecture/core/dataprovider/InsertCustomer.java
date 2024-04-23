@@ -4,5 +4,5 @@ import com.jfb.cleanarchitecture.core.domain.Customer;
 
 public interface InsertCustomer {
 
-    void insert(Customer customer);
+    void insert(final Customer customer);
 }
